@@ -1,0 +1,18 @@
+email:
+  id: 'christopher.keneally@adelaide.edu.au'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+twitter:
+  id: '@cckeneally'
+  href: 'https://www.twitter.com/cckeneally'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
+
+github:
+  id: 'your-github-name'
+  href: 'https://github.com/cckeneally'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'
+

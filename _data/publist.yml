@@ -1,0 +1,51 @@
+- title: "(Conference) Microbial ecology & methane production in a hypersaline coastal lagoon"
+  image: SFS.png
+  description: This conference presentation explored the Coorong, a hypersaline coastal lagoon in Australia, and its role in methane emissions, a key aspect of the global greenhouse gas cycle. The study highlighted how the system's unique conditions could increase methane release - in an environment often overlooked in climate models. By combining insights from microbial ecology, biogeochemistry, and limnology, the research aims to improve our understanding of greenhouse gas emissions from coastal wetlands.
+  authors: Keneally, C., Matilda Southgate, Daniel Chilton, Stephen Kidd, Justin Brookes 
+  link:
+    url: https://docs.google.com/viewer?url=https://cckeneally.github.io/pdfs/Keneally_SFS.pdf
+    display: Slides presented at the Society for Freshwater Sciences Conference in Brisbane (2023)
+  highlight: 1
+  news2: 
+  
+- title: "How well is the basin plan meeting its objectives? From the perspective of the Coorong, a sentinel of change in the Murray-Darling Basin"
+  image: basinplan.jpg
+  description: The Coorong estuary in South Australia is a crucial 'sentinel' of the overall health of the larger Murray-Darling Basin. Environmental efforts have helped its ecosystem, particularly by managing salt levels and supporting fish habitats, but challenges like sand buildup still remain. This work highlights the ongoing need for better water management in the area.
+  authors: Brookes, J. D., Brendan Busch, Phill Cassey, Daniel Chilton, Sabine Dittmann, Tyler Dornan, George Giatas, Bronwyn M. Gillanders, Matt Hipsey, Peisheng Huang, Christopher Keneally, Micha V. Jackson, Luke Mosley, Rowan Mott, David Paton, Thomas Prowse, Michelle Waycott, Qifeng Ye, Sherry Zhai & Matthew Gibbs
+  link:
+    url: https://doi.org/10.1080/13241583.2023.2241161
+    display: Australasian Journal of Water Resources (2023)
+  highlight: 1
+  news2:
+  
+- title: "(Conference) Sediment microbial ecology and methane dynamics during resuspension events in a hypersaline coastal lagoon - ePoster Session: Gases in inland waters: production, accumulation, and emission. "
+  image: silposter.png
+  description: This poster session summarised the research approach, methodology, and initial story of our methane work in the Coorong.
+  authors: Keneally C., Matilda Southgate, Daniel Chilton, Tyler Dornan, Justin Brookes
+  link:
+    url: https://docs.google.com/viewer?url=https://cckeneally.github.io/pdfs/SILPoster_16by9.pdf
+    display: Poster presented at the meeting of 36th Congress of the International Society for Limnology. Berlin, Germany. (2022)
+  highlight:
+  news2: 
+  
+- title: "N and C Isotope Variations Along an Extreme Eutrophication and Salinity Gradient in the Coorong Lagoon, South Australia"
+  image: priestly2022.png
+  description: Nitrogen and carbon isotopes (δ15N and δ13C) were utilized to investigate geochemical cycles in the Coorong. The research established a relationship between phytoplankton production and the composition of suspended organic matter. It was found that variations in salinity and eutrophication directly impacted the δ15N and δ13C values. The study revealed that algal material is the primary source of nitrogen in the lagoon's sediments, highlighting important aspects of nitrogen cycling in this valuable ecosystem. This research suggests that sediment δ15N values can be indicative of historical productivity levels in such environments.
+  authors: Priestley Stacey C., Jonathan Tyler, Savannah R. Liebelt, Luke M. Mosley, Wei Wen Wong, Yuexiao Shao, Zara Woolston, Mark Farrell, David T. Welsh, Justin D. Brookes, Alan S. Collins, Chris Keneally, Juraj Farkaš
+  link:
+    url: https://doi.org/10.3389/feart.2021.727971
+    display: Frontiers in Earth Science 9 (2022)
+  highlight: 
+  news2:
+  
+- title: "(Report) Coorong nutrient cycling and fluxes."
+  image: 
+  description: 
+  authors: Huang J. (Leslie), David Welsh, Dirk Erler, Angus Ferguson, Justin Brookes, Chris Keneally, Daniel Chilton, Sabine Dittmann, Orlando Lam-Gordillo, Matilda Southgate, Stuart Simpson, Luke Mosley 
+  link:
+    url: https://www.researchgate.net/profile/Jianyin-Huang/publication/368714773_Coorong_nutrient_cycling_and_fluxes/links/63f6be51574950594536d074/Coorong-nutrient-cycling-and-fluxes.pdf
+    display: Goyder Institute for Water Research Technical Report Series 22/07 (2022)
+  highlight:
+  news2: 
+  
+
