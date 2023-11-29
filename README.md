@@ -1,4 +1,4 @@
-# just-the-docs-template
+# cckeneally.github.io
 
 This repo contains the code for my personal website, built with [Jekyll] and published on [GitHub Pages] @ [cckeneally.github.io](http://cckeneally.github.io).
 
