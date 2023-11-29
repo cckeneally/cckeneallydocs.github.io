@@ -71,7 +71,24 @@ scholar:
   bibliography: "references.bib"
   bibliography_template: "{{reference}}"
   query: "@*"
-  
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red  
+
  # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
 # Note: the main Just the Docs site does *not* use Google Analytics.

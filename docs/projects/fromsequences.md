@@ -65,6 +65,7 @@ Terminal: macOS users have direct access to Bash through the Terminal applicatio
 
 Terminal: On Linux, Bash is usually the default shell. You can access it through the Terminal application, which is included in all Linux distributions.
 
+{: .highlight }
 This was written on a linux machine running [Pop OS](https://pop.system76.com/), so examples of folder hierarchies may look a bit different to those on your Windows or Mac OS while following along.
 
 ## Basic Bash Navigation Commands
@@ -122,7 +123,7 @@ conda activate qiime2-2023.5
 
 # Import Seqs
 
-{: .warning }
+{: .important }
 This guide does not cover demultiplexing and assumes that you have demultiplexed .fastq files for each of your samples!
 
 There are some great demultiplexing tutorials available in the [QIIME docs](https://forum.qiime2.org/t/demultiplexing-and-trimming-adapters-from-reads-with-q2-cutadapt/2313). Although this is an important part of the bioinformatic process - many service providers (AGRF in Australia, for example), will provide you with something like this:
@@ -186,6 +187,9 @@ done
 \
 To use this script, you can run a command line text editor like '[nano](https://www.nano-editor.org/)' by typing `nano` into bash (there are other CLI text editors, but this is one available on most linux distros + mac OS, and is easier to use).
 
+{: .note }
+This script was designed to find compressed fastq files by their extension `fastq.gz`. It then uses the `sed` command to pattern match the string `-16S_V3-V4_`, and remove it & the following characters (denoted by `.*`). This works well for my files (see figure above), but you can easily customise this by replacing the `-16S_V3-V4_` string with one that works for your own files.
+
 1.  Paste the script into nano and exit CTRL+X.
 
 2.  Nano will ask you if you want to save the file, press Y
@@ -205,12 +209,12 @@ To use this script, you can run a command line text editor like '[nano](https://
 
 The resulting `se-33-manifest-test.csv` file is a paired end .fastq manifest (Phred 33V2) which will import paired end reads into single samples with `qiime tools import`.
 
-Input requires .tsv file, can convert from .csv with a one-liner:
+{: .note }
+>Input requires .tsv file, can convert from .csv by running this one-liner:
+>
+>`sed 's/,/\t/g' se-33-manifest-test.csv > se-33-manifest-test.tsv`
 
-`sed 's/,/\t/g' se-33-manifest-test.csv > se-33-manifest-test.tsv`
-
-Run with the tsv
-
+Run `qiime tools import` with the (tsv format) manifest as input:
 ``` bash
 qiime tools import \
   --type 'SampleData[PairedEndSequencesWithQuality]' \
@@ -229,6 +233,10 @@ qiime demux summarize \
 
 ![](images/ReadQuality_PreDADA2.png)
 *Sequence quality of forward & reverse reads from `paired-end-demux.qzv`, visualised in browser with the QIIME2 View tool*
+
+{: .note }
+`.qzv` files are specifically for visualisation with QIIME2's [web tool](https://view.qiime2.org/). 
+You can also use this tool to view metadata for `.qza` files
 
 
 ------------------------------------------------------------------------
@@ -262,8 +270,8 @@ qiime dada2 denoise-paired \
   --o-representative-sequences rep-seqs.qza \
   --o-denoising-stats denoising-stats.qza
 ```
-
-`table.qza` is a QIIME artifact containing our feature table (counts of each sequence), `rep-seqs.qza` is a containing representative sequences, and `denoising-stats.qza` gives us a lot of information about what DADA2 just did to our input sequences. We
+{: .note}
+`table.qza` is a QIIME artifact containing our feature table (counts of each sequence), `rep-seqs.qza` is a containing representative sequences, and `denoising-stats.qza` gives us a lot of information about what DADA2 just did to our input sequences.
 
 ## Summarise and visualise denoising results
 
@@ -334,7 +342,7 @@ Clicking a representative sequence here allows you to BLAST the gene against the
 
 Here, we have found that the ASV with the highest frequency in our data corresponds to the NCBI sequence for *Pseudoalteromonas agarivorans* - a marine bacterium! An initial sanity check passed on the data (sequenced from an estuarine environment)!
 
-Doing this for \~50k other ASVs, however is... not advised - which is why we will go over taxonomy assignment next.
+Doing this manually for \~50k other ASVs, however is... not advised - which is why we will go over taxonomy assignment next.
 
 ![](images/reqseqs.qzv.png)
 *Representative Sequences Visualisation - `rep-seqs.qzv`*
@@ -481,6 +489,10 @@ Jaccard, bray-curtis, and unifrac (weighted + unweighted) are default metrics co
 
 ![](images/BetaDivGroupSig.png)
 *Beta diversity group significance analysed by PERMANOVA and plotted with QIIME2 view.*
+
+------------------------------------------------------------------------
+
+Stay tuned for a tutorial on downstream data analysis!
 
 ------------------------------------------------------------------------
 
