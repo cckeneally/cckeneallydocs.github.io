@@ -19,11 +19,12 @@ My PhD research project is concerned with the functional genetics and ecology of
 This project is supervised by Dr. Virginie Gaget, Dr. Stephen Kidd, Prof. Justin Brookes, and is lucky to have an additional large group of brilliant collaborators from the Project Coorong team. Together, our research aims to help understand nutrient cycling pathways, to find a path to bioremediation of the study site, and inform policy and management in the region to that end. It also aims to contribute to the scientific literature on similar 'extreme' systems on a broader scale - e.g. microbial stress adaptation, climate, early earth evolution and astrobiology.
 
 ### PhD Research Summary video, winner of a communication award at The University of Adelaide's Ingenuity 2021 (see [article](https://set.adelaide.edu.au/news/list/2021/10/26/student-led-stem-research-and-technology-on-show) here)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QftV2AIXPv4?si=KVBjfbO9g_xQxDrx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+{% include youtube.html id='QftV2AIXPv4' %}
 
 ## Previous Research
 
 ### Honours research seminar
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9jqJM6bgm_M?si=x4jS08nMX0efu_2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+{% include youtube.html id='9jqJM6bgm_M' %}
 
