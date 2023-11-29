@@ -227,7 +227,7 @@ qiime demux summarize \
 --o-visualization paired-end-demux-test.qzv
 ```
 
-![](images/ReadQuality_PreDADA2.png){width="1500"}
+![](images/ReadQuality_PreDADA2.png)
 *Sequence quality of forward & reverse reads from `paired-end-demux.qzv`, visualised in browser with the QIIME2 View tool
 
 
@@ -291,7 +291,7 @@ In this case, we are losing a small amount of sequences here - indicating our pr
 
 In some cases - this troubleshooting process can be tricky, particularly when working with less common genes (e.g. fungal ITS). If you are really lost I strongly recommend getting onto the [QIIME2 forums](https://forum.qiime2.org/) and posting about your specific problem, there is a wealth of knowledge on there!
 
-![](images/DADA2Stats.png){width="800"}
+![](images/DADA2Stats.png)
 *Denoising statistics - from `denoising-stats.qzv` visualised with QIIME2View*
 
 ## Visualise table in context of environmental metadata
