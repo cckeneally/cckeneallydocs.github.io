@@ -9,8 +9,8 @@ last_modified_date: "now"
 # Qualifications & CV
 {: .fs-9 }
 
-[Download CV (.docx)](){: .btn .btn-blue } 
-[Download CV (.pdf)](){: .btn .btn-primary }
+[Contact Me](mailto:christopher.keneally@adelaide.edu.au){: .btn .btn-blue } 
+[Download CV (.pdf)](https://cckeneally.github.io/pdfs/cckeneally_cv.pdf){: .btn .btn-primary }
 
 ------------------------------------------------------------------------
 
