@@ -227,8 +227,8 @@ qiime demux summarize \
 --o-visualization paired-end-demux-test.qzv
 ```
 
-![](https://view.qiime2.org)](images/ReadQuality_PreDADA2.png){width="1500"}
-*Sequence quality of forward & reverse reads from `paired-end-demux.qzv`, visualised with [QIIME2 View*
+![](images/ReadQuality_PreDADA2.png){width="1500"}
+*Sequence quality of forward & reverse reads from `paired-end-demux.qzv`, visualised in browser with the QIIME2 View tool
 
 
 ------------------------------------------------------------------------
