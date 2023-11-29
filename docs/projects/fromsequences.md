@@ -235,7 +235,7 @@ qiime demux summarize \
 
 # Denoising w/ DADA2
 
-DADA2 is an open-source package for modelling and correcting errors in Illumina-sequenced data, it is implemented in QIIME2, and generally considered to be the current gold-standard for microbial community analyses {% cite callahan2016 cite straub2020 %}.
+DADA2 is an open-source package for modelling and correcting errors in Illumina-sequenced data, it is implemented in QIIME2, and generally considered to be the current gold-standard for microbial community analyses {% cite callahan2016 straub2020 %}.
 
 First of all, we need to remove primers. In this example I trimmed both FWD and REV primers by their length (high non-chimeric reads below suggests this trimming is sufficient, but `cutadapt` may be necessary if you are losing a lot of sequences to chimeras).
 
