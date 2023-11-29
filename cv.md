@@ -29,7 +29,7 @@ last_modified_date: "now"
 
 ### Doctor of Philosophy, The University of Adelaide: (Expected completion in Early 2024)
 
-Focused on microbial ecology in the Coorong Lagoon South Australia. Click [here](% link research.md %) for more information, including a brief YouTube video summarising my research.
+Focused on microbial ecology in the Coorong Lagoon South Australia. Click [here](/research.html) for more information, including a brief YouTube video summarising my research.
 
 ### Honours Degree of Bachelor of Science, The University of Adelaide (2020)
 
