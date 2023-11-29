@@ -33,21 +33,19 @@ Chris Keneally - PhD Candidate, Freshwater & Ecophysiology, School of Biological
 
 # Introduction
 
-In this tutorial, we'll explore the basics of bioinformatic processing of Next-Generation Sequencing (NGS) data, specifically focusing on 16S amplicon sequence analysis. This guide is especially useful for environmental microbiome research. We'll utilize [QIIME2](https://qiime2.org/)(**Q**uantitative **I**nsights **I**nto **M**icrobial **E**cology), a versatile and commonly-used tool for microbiome data analysis, and incorporate some essential Bash skills for efficient navigation and data handling {% cite bolyen2019 %}.
+In this tutorial, we'll explore the basics of bioinformatic processing of Next-Generation Sequencing (NGS) data, specifically focusing on 16S amplicon sequence analysis. This guide is written with environmental microbiome research in mind, but is also broadly applicable to other amplicon analyses. We'll utilize [QIIME2](https://qiime2.org/)(**Q**uantitative **I**nsights **I**nto **M**icrobial **E**cology), a versatile and commonly-used tool for microbiome data analysis, and incorporate some essential Bash skills for efficient navigation and data handling {% cite bolyen2019 %}.
 
 The tutorial covers basic workflow of NGS data analysis (post-demultiplexing): starting from setting up the QIIME2 environment, importing and assessing data quality, to denoising with DADA2, taxonomic classification, and some examples of basic statistical analyses. Each section is structured with step-by-step instructions and code snippets to ensure clarity and ease of understanding.
 
 This data displayed here is based on analysis conducted for a PhD chapter on seasonal fluctuations of sediment microbial communities in the Coorong Lagoon, in South Australia. While QIIME2 itself provides extremely [comprehensive tutorials](https://docs.qiime2.org/), this guide serves as a practical supplement, demonstrating an application on real-world, imperfect environmental data from the perspective of an ecologist.
 
-This is not a replacement for the official QIIME documentation - but serves as a guide and framework for anyone who finds it useful. *(probablyy me when I inevitably forget what I've done in 3 years... )*
+This is not a replacement for the official QIIME documentation - but serves as a guide and framework for anyone who finds it useful. *(like me when I forget what I've done in 3 years... )*
 
 ## Basics of Bash
 
 Bash (**B**ourne **A**gain **Sh**ell) is a powerful command-line interface used in many operating systems for file manipulation, program execution, and other tasks. It's an essential tool for bioinformaticians, providing a direct way to interact with the system and automate tasks.
 
-Bash is more than just a program to run commands; it's a scripting language that allows you to write scripts to automate complex tasks. Once you are comfortable using it, this can significantly increase your productivity, especially in data-heavy fields like bioinformatics. Alongside R and Python, Bash is a core skill for bioinformatics.
-
-
+Once you are comfortable using it, this can significantly increase your productivity, especially in data-heavy fields like bioinformatics. Alongside R and Python, Bash is a core skill for bioinformatics.
 
 ## Accessing Bash in Different Operating Systems
 
@@ -499,3 +497,4 @@ Stay tuned for a tutorial on downstream data analysis!
 # References
 
 {% bibliography %}
+
