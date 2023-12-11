@@ -35,11 +35,14 @@ Chris Keneally - PhD Candidate, Freshwater & Ecophysiology, School of Biological
 
 [Shiny](https://www.rstudio.com/products/shiny/) apps in R are a fantastic way to build interactive web applications directly from your R code. They're great for visualizing data, running analyses, or just exploring stuff visually. 
 
-For this quick runthrough, I've built a basic app which takes geospatial data and visualises it with leaflet - handy for when you need a quick peek or even to grab a screenshot for more detailed mapping later. The app is currently live (please let me know if not) and available below:
+![](images/shinyappsc.png)
+*The quick and dirty map app in question.*
+
+For this quick runthrough, I've built a basic app (above) which takes geospatial data and visualises it with leaflet - handy for when you need a quick peek or even to grab a screenshot for more detailed mapping later. The app is currently live (please let me know if not) and available to try out below:
 
 [Sitemap Generator Shiny App](https://cckeneally.shinyapps.io/sitemapgenerator/){: .btn .btn-green}
 
-To try it with your own data, format your coordinates into columns as you see displayed in the Sample data: `lat`, `lon`, and `sitename`, save as a .csv/.xlsx file, and upload!
+To visualise your own data, format your coordinates into columns as you see displayed in the Sample data: `lat`, `lon`, and `sitename`, save as a .csv/.xlsx file, and upload! To learn how to build the app, read on.
 
 ## Prep
 
