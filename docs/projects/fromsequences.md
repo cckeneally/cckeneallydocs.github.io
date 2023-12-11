@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "From Sequences To Microbes: Foundations of QIIME2 and Bash for Environmental Microbiome Analysis"
+title: "From Sequences To Microbes: Foundations of QIIME2 and Bash for Environmental Microbiome Analysis "
 parent: Projects & Code
 last_modified_date: "now"
 nav_order: 1
 permalink: docs/projects/fromsequences
 ---
 
-# From Sequences To Microbes: Foundations of QIIME2 and Bash for Environmental Microbiome Analysis
+# From Sequences To Microbes: Foundations of QIIME2 and Bash for Environmental Microbiome Analysis 
 {: .fs-9 .no_toc }
 
 New release
